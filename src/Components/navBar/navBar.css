@@ -63,3 +63,8 @@
 	width: 100%;
 	background-color: var(--accent);
 }
+
+em {
+	font-style: normal;
+	color: var(--accent);
+}

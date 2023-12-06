@@ -13,7 +13,6 @@ const Project = (props) => {
                 <h3 className="project__title">{props.title}</h3>
             </li>
         </NavLink>
-);
+    );
 }
- 
 export default Project;

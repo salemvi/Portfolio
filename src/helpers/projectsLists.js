@@ -16,8 +16,6 @@ import project05big from './../img/projects/05-big.jpg'
 import project06 from './../img/projects/06.jpg'
 import project06big from './../img/projects/06-big.jpg'
 
-
-
 const projects = [
     {
         title: 'Gaming streaming portal',
@@ -61,6 +59,5 @@ const projects = [
         bigImg: project06big,
         gitHubLink: 'https://github.com/salemvi'
     },
-
 ];
 export {projects}

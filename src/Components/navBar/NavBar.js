@@ -11,7 +11,7 @@ const NavBar = () => {
          <div className="container">
             <div className="nav-row">
             <NavLink to='/' className="logo">
-                <strong>Frontend</strong> VI
+                <strong>Frontend</strong> <em>VI</em>
             </NavLink>
 
                 <BtnSunMoon/>

@@ -1,5 +1,7 @@
 import { useParams } from 'react-router-dom';
 import {projects} from './../helpers/projectsLists';
+import { motion } from "framer-motion";
+import motionParams from "../services/motionParams";
 
 import BtnGitHub from '../Components/btnGitHub/BtnGitHub';
 
@@ -11,7 +13,7 @@ const ProjectIsOpen = () => {
 
 
     return ( 
-        <main className="section">
+        <motion.main {...motionParams} className="section">
             <div className="container">
                 <div className="project-details">
 
@@ -26,7 +28,7 @@ const ProjectIsOpen = () => {
 
                 </div>
             </div>
-        </main>
+        </motion.main>
      );
 }
  
